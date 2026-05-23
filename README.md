@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="kiro.jpg" alt="Kiro" width="220" />
+</p>
+
 # edu-polybar
 
 Educational / tutorial repository for [polybar](https://github.com/polybar/polybar), a fast and easy-to-use status bar. Part of the `~/EDU/` learning series — a ready-to-use polybar config dropped on top of a fresh Arch / Kiro install.
