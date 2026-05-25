@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026.05.25
+
+### What Changed
+- De-brand (user-visible): the `[module/jgmenu]` polybar module ran
+  `echo "ArcoLinux"`, displaying that text in the bar. Changed to `echo "Kiro"`.
+  Part of the ecosystem-wide arcolinux de-brand sweep.
+
+### Files Modified
+- `etc/skel/.config/polybar/config.ini`
+
 ## 2026.05.21
 
 ### What Changed
