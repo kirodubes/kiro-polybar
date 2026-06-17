@@ -1,4 +1,4 @@
-# CLAUDE.md — edu-polybar
+# CLAUDE.md — kiro-polybar
 
 ## Project overview
 

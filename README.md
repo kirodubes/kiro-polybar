@@ -2,7 +2,7 @@
   <img src="kiro.jpg" alt="Kiro" width="220" />
 </p>
 
-# edu-polybar
+# kiro-polybar
 
 Educational / tutorial repository for [polybar](https://github.com/polybar/polybar), a fast and easy-to-use status bar. Part of the `~/EDU/` learning series — a ready-to-use polybar config dropped on top of a fresh Arch / Kiro install.
 
@@ -25,7 +25,7 @@ Server = https://erikdubois.github.io/$repo/$arch
 
 ```bash
 sudo pacman -Syu
-sudo pacman -S edu-polybar-git
+sudo pacman -S kiro-polybar
 ```
 
 You'll also need polybar:
@@ -37,8 +37,8 @@ sudo pacman -S polybar
 ### Manual
 
 ```bash
-git clone https://github.com/erikdubois/edu-polybar.git
-cd edu-polybar
+git clone https://github.com/kirodubes/kiro-polybar.git
+cd kiro-polybar
 sudo cp -r etc/skel/. /etc/skel/
 ```
 
