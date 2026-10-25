@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.10.25
+
+### What Changed
+- bspwm bar: the layout icon after the desktop icons (a 9-square grid in tiled layout, an eye in monocle) now
+  does something when clicked: it switches the focused desktop between tiled and monocle. Before, it only showed
+  the layout, so clicking it did nothing.
+
+### Technical Details
+- `[module/bspwm]` `format` wraps `<label-mode>` in a polybar action tag:
+  `%{A1:bspc desktop -l next:}<label-mode>%{A}`. `-l next` toggles tiled ↔ monocle. Tested on a dual-monitor
+  test box: the first click gives monocle and the eye icon, the second gives tiled and the grid again.
+- Edited with a script, not an editor tool, so the Nerd Font glyphs in the file stay intact (the diff is 2 lines).
+
+### Files Modified
+- `etc/skel/.config/polybar/config.ini`
+
 ## 2026.09.28
 
 ### What Changed
